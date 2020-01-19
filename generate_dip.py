@@ -105,15 +105,16 @@ def generate_pkg(
         uuid_pkg = _uuid('pkg')
         uuid_pads = [_uuid('pad-{}'.format(p)) for p in range(1, pin_count + 1)]
 
-        # IPC-7251 name  Example: DIP762W52P254L1905H508Q14B
-        # DIP + lead span + W lead width + P pitch + L body length + H component height + Q pin count 
-        DIP = float(width) *100
+        # IPC-7251C name:
+        # DIP + lead span + W lead width + P pitch + L body length + H component height + Q pin count
+        # Example: DIP762W52P254L1905H508Q14B
+        DIP = float(width) * 100
         W = lead_width
-        P = spacing*100
-        L = (pin_count/2) * P + pin_package_offset *200
+        P = spacing * 100
+        L = (pin_count / 2) * P + pin_package_offset * 200
         H = component_height
         Q = pin_count
-        
+
         # General info
         lines.append('(librepcb_package {}'.format(uuid_pkg))
         lines.append(' (name "DIP{:.0f}W{:.0f}P{:.0f}L{:.0f}H{:.0f}Q{}")'.format(DIP, W, P, L, H, Q))
