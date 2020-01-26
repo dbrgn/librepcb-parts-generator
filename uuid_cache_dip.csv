@@ -27,6 +27,8 @@ pkg-15.24-24pin-d0.8-pad-9,9d322dd5-ae2a-4109-807d-a56060f9905a
 pkg-15.24-24pin-d0.8-pin1-dot-silkscreen-compact,94a60ea4-680b-4eaa-a958-9f55dd192e4a
 pkg-15.24-24pin-d0.8-pin1-dot-silkscreen-handsoldering,2e18d7a9-4de4-4f59-8c92-17841fc7f9c1
 pkg-15.24-24pin-d0.8-pkg,51057fee-d408-416e-bcae-4c7704ee5a93
+pkg-15.24-24pin-d0.8-polygon-courtyard-compact,6d2f741d-84b0-4d45-b6f8-ef4931006ab5
+pkg-15.24-24pin-d0.8-polygon-courtyard-handsoldering,a2181439-1cba-4fd1-b95c-70b46ef1b931
 pkg-15.24-24pin-d0.8-polygon-outline,7cfdbafa-02a2-4968-883e-86070f4b87b0
 pkg-15.24-24pin-d0.8-polygon-outline-compact,e354e5dc-90aa-46be-b000-fe5063489a75
 pkg-15.24-24pin-d0.8-polygon-outline-handsoldering,28374194-0210-4419-a647-8fe2dcbd8726
@@ -75,6 +77,8 @@ pkg-15.24-28pin-d0.8-pad-9,e4da5956-2098-4669-912f-af48558bb021
 pkg-15.24-28pin-d0.8-pin1-dot-silkscreen-compact,141a7640-5ca4-4c70-a560-20bf2054818d
 pkg-15.24-28pin-d0.8-pin1-dot-silkscreen-handsoldering,e6619f9a-6002-463b-a9b9-b8dc75f6e18a
 pkg-15.24-28pin-d0.8-pkg,e316abe4-5fdd-4081-a037-8e0e8e68daac
+pkg-15.24-28pin-d0.8-polygon-courtyard-compact,8c934fa4-b36e-4509-ac62-2c77dc930490
+pkg-15.24-28pin-d0.8-polygon-courtyard-handsoldering,e2a9d7d5-9342-43af-85eb-57a78db2491e
 pkg-15.24-28pin-d0.8-polygon-outline,df9810c4-2be5-46dc-8a9c-696fac2c6b76
 pkg-15.24-28pin-d0.8-polygon-outline-compact,a3611168-148a-46f8-b60e-c406bfc48a16
 pkg-15.24-28pin-d0.8-polygon-outline-handsoldering,edbbe815-a89a-4fbe-bf37-98fd771e45e5
@@ -127,6 +131,8 @@ pkg-15.24-32pin-d0.8-pad-9,14df285b-5ad1-47e4-9903-098afb8e804a
 pkg-15.24-32pin-d0.8-pin1-dot-silkscreen-compact,7c43c2e8-a8d7-4864-8569-5b31c3f32dba
 pkg-15.24-32pin-d0.8-pin1-dot-silkscreen-handsoldering,afbca41a-9141-4283-a94d-d8debc420fa8
 pkg-15.24-32pin-d0.8-pkg,d879b25c-dcdc-490a-834a-4a73aa2c828c
+pkg-15.24-32pin-d0.8-polygon-courtyard-compact,38e23bb5-cbbc-43a9-9d5a-2a15e1fe8a5d
+pkg-15.24-32pin-d0.8-polygon-courtyard-handsoldering,b52452b7-408b-4b91-bee3-3f982e254909
 pkg-15.24-32pin-d0.8-polygon-outline,9142ef23-1c16-4adb-abca-f4564b13220c
 pkg-15.24-32pin-d0.8-polygon-outline-compact,8fa14d96-8630-46f7-a38f-cbc8a845228a
 pkg-15.24-32pin-d0.8-polygon-outline-handsoldering,68ee532d-ab1c-419e-b244-2b00fdfdcf50
@@ -239,6 +245,8 @@ pkg-15.24-40pin-d0.8-pad-9,0a41ee45-6168-4a99-acb1-5faa47b929b3
 pkg-15.24-40pin-d0.8-pin1-dot-silkscreen-compact,b83b1807-5dd9-488e-8d89-f85b0449a7a3
 pkg-15.24-40pin-d0.8-pin1-dot-silkscreen-handsoldering,17dbb26f-0bc8-4e07-a418-0a862540cc0c
 pkg-15.24-40pin-d0.8-pkg,b988e922-f199-445b-ad28-2c57022b1b5d
+pkg-15.24-40pin-d0.8-polygon-courtyard-compact,07029c6a-b542-4f66-8c6d-602d4accc2db
+pkg-15.24-40pin-d0.8-polygon-courtyard-handsoldering,34770e84-2c93-4041-ae18-a7779893b9fc
 pkg-15.24-40pin-d0.8-polygon-outline,17b6b584-d4b0-406b-b064-c56a5589c917
 pkg-15.24-40pin-d0.8-polygon-outline-compact,414150db-56f7-457b-9c3c-79fb54fe87fe
 pkg-15.24-40pin-d0.8-polygon-outline-handsoldering,a0db1eef-8ab7-430f-a5f8-14d3e9d4a007
@@ -485,6 +493,8 @@ pkg-7.62-14pin-d0.8-pad-9,7b3cb451-c5e8-4e10-b947-8329f44033c6
 pkg-7.62-14pin-d0.8-pin1-dot-silkscreen-compact,954212bb-6eba-442a-8f81-772febdea59d
 pkg-7.62-14pin-d0.8-pin1-dot-silkscreen-handsoldering,c481ade6-5f8a-420f-a659-355754838b86
 pkg-7.62-14pin-d0.8-pkg,1cc4d1c8-c1db-41f5-8e49-f972b26e8af1
+pkg-7.62-14pin-d0.8-polygon-courtyard-compact,1e44d837-ea07-42e5-b2fc-7f735903ef6d
+pkg-7.62-14pin-d0.8-polygon-courtyard-handsoldering,f2a23b1f-1633-4865-b000-3114f5df32bd
 pkg-7.62-14pin-d0.8-polygon-outline,cb162dcd-4281-4789-8b46-19b4bd11fab8
 pkg-7.62-14pin-d0.8-polygon-outline-compact,be9b6162-4d1e-4b90-8660-bc60a33470ed
 pkg-7.62-14pin-d0.8-polygon-outline-handsoldering,19d13ed6-1f54-47f4-a6f0-05f4f82e646c
@@ -521,6 +531,8 @@ pkg-7.62-16pin-d0.8-pad-9,ffe78205-b14d-49bc-9caf-afc0ce4fc120
 pkg-7.62-16pin-d0.8-pin1-dot-silkscreen-compact,e7c16598-27bd-4bde-aa29-6de043d3fd12
 pkg-7.62-16pin-d0.8-pin1-dot-silkscreen-handsoldering,ae2277cd-2fad-477a-9eb9-9f2984ebcd28
 pkg-7.62-16pin-d0.8-pkg,a37f75b8-c5c0-4d8e-a5c4-b4fad1fa4cfc
+pkg-7.62-16pin-d0.8-polygon-courtyard-compact,e97a6b22-e006-4e8f-b421-d46e34ba0f64
+pkg-7.62-16pin-d0.8-polygon-courtyard-handsoldering,83d13d29-cc74-4245-9306-da84046bbcfd
 pkg-7.62-16pin-d0.8-polygon-outline,16204f78-07ae-47d0-9a78-d47c7559e665
 pkg-7.62-16pin-d0.8-polygon-outline-compact,bb34c11d-bd9a-4e6a-af8e-86a445eae173
 pkg-7.62-16pin-d0.8-polygon-outline-handsoldering,a7c0d6d0-3c00-4def-b7af-e21dfa968f79
@@ -559,6 +571,8 @@ pkg-7.62-18pin-d0.8-pad-9,5b4215e9-599a-4442-913a-d218ae97f7b3
 pkg-7.62-18pin-d0.8-pin1-dot-silkscreen-compact,30ca2de5-8b9e-4b27-9ea7-ad3d2ff1a53e
 pkg-7.62-18pin-d0.8-pin1-dot-silkscreen-handsoldering,dd5d4762-a372-43d5-bd44-671b67617cda
 pkg-7.62-18pin-d0.8-pkg,d18cdbf6-7f61-4691-b244-c21915b3fa6a
+pkg-7.62-18pin-d0.8-polygon-courtyard-compact,9751acd8-79d3-4ce2-a016-779d12feeadb
+pkg-7.62-18pin-d0.8-polygon-courtyard-handsoldering,0c1d00e8-dd7a-49d3-953a-d303b27c33b6
 pkg-7.62-18pin-d0.8-polygon-outline,2feb1df9-8c15-49ad-a2fd-d2a7f1c1564a
 pkg-7.62-18pin-d0.8-polygon-outline-compact,cb40e7c6-1ed3-498b-9447-01a5ef6880b5
 pkg-7.62-18pin-d0.8-polygon-outline-handsoldering,8c62643d-9cf2-4968-9a38-37293687db65
@@ -599,6 +613,8 @@ pkg-7.62-20pin-d0.8-pad-9,96c683df-b58e-44da-b8d5-fae93b439bb5
 pkg-7.62-20pin-d0.8-pin1-dot-silkscreen-compact,9b78561b-95ff-4259-a985-c5c097cd4afd
 pkg-7.62-20pin-d0.8-pin1-dot-silkscreen-handsoldering,646cdf77-db07-47ed-9d9d-caf9f09e4e87
 pkg-7.62-20pin-d0.8-pkg,de5b921e-fa7b-4a44-8424-de9a631d7fa4
+pkg-7.62-20pin-d0.8-polygon-courtyard-compact,edff15ba-409a-4b58-af69-ad5fbb8672d7
+pkg-7.62-20pin-d0.8-polygon-courtyard-handsoldering,acb7c2b9-6275-41ed-8b86-d5669360666b
 pkg-7.62-20pin-d0.8-polygon-outline,4c048e32-85e8-47f6-b21a-90a33949c0b6
 pkg-7.62-20pin-d0.8-polygon-outline-compact,07796643-32a0-4803-bf34-3ddcf7027df9
 pkg-7.62-20pin-d0.8-polygon-outline-handsoldering,5daf59ed-9250-4d96-83f2-e1aaa6a83fd2
@@ -641,6 +657,8 @@ pkg-7.62-22pin-d0.8-pad-9,b930e910-e7b3-454b-8d08-4f4dd4480d33
 pkg-7.62-22pin-d0.8-pin1-dot-silkscreen-compact,909a63ae-03c6-4ad6-b7b0-179d47fc43b1
 pkg-7.62-22pin-d0.8-pin1-dot-silkscreen-handsoldering,5d4666b7-6500-4a62-9574-4a29827e6bc1
 pkg-7.62-22pin-d0.8-pkg,767b159c-c06e-44f0-831e-70b53965179e
+pkg-7.62-22pin-d0.8-polygon-courtyard-compact,c7e04a47-7e82-4e8f-9f5c-3fae62aa1f87
+pkg-7.62-22pin-d0.8-polygon-courtyard-handsoldering,5e310fe6-1cbb-4323-9b61-c0cf45197297
 pkg-7.62-22pin-d0.8-polygon-outline-compact,04a5a7ff-bc28-4cc0-b9ab-5f434b3e94a0
 pkg-7.62-22pin-d0.8-polygon-outline-handsoldering,cda01e3f-7aac-4c34-ba0b-f24e9b5a6108
 pkg-7.62-22pin-d0.8-polygon-silkscreen-bot-compact,42b5249c-f838-4e31-b880-d1f03e2715d5
@@ -682,6 +700,8 @@ pkg-7.62-24pin-d0.8-pad-9,a3b91684-c38d-4a63-8955-ad45c4637ce4
 pkg-7.62-24pin-d0.8-pin1-dot-silkscreen-compact,807bc092-2584-4d36-a71a-58891314a4e5
 pkg-7.62-24pin-d0.8-pin1-dot-silkscreen-handsoldering,eef203ce-37ed-433d-921d-cd9ab81ea4c8
 pkg-7.62-24pin-d0.8-pkg,fd311ad7-e43e-4354-ad2e-7680e9ac3d99
+pkg-7.62-24pin-d0.8-polygon-courtyard-compact,6c25932d-4b8d-406f-a5e0-90c0502d8144
+pkg-7.62-24pin-d0.8-polygon-courtyard-handsoldering,91af979e-032c-4d4a-9f78-c766b3e60d89
 pkg-7.62-24pin-d0.8-polygon-outline,58c6a959-55e2-4b4a-b769-f99d223a0716
 pkg-7.62-24pin-d0.8-polygon-outline-compact,fc5cafd3-d9d3-47e8-b02a-8f41e3f180b3
 pkg-7.62-24pin-d0.8-polygon-outline-handsoldering,da2071b3-ab19-4587-bf52-a19fac4e8a2e
@@ -730,6 +750,8 @@ pkg-7.62-28pin-d0.8-pad-9,0dd33896-e716-4a5e-86e7-bc2c54e35ac2
 pkg-7.62-28pin-d0.8-pin1-dot-silkscreen-compact,9d1e4cbb-cf78-404b-839f-c23f245b4b21
 pkg-7.62-28pin-d0.8-pin1-dot-silkscreen-handsoldering,83be7741-a6ea-4b61-aafc-f8b054c72a72
 pkg-7.62-28pin-d0.8-pkg,bfc50292-e828-4411-9802-139ba8ca7483
+pkg-7.62-28pin-d0.8-polygon-courtyard-compact,a67e6799-4ef2-4aef-ac4d-f2ecbc8ca1ef
+pkg-7.62-28pin-d0.8-polygon-courtyard-handsoldering,99b5822e-f5ab-40bd-881b-ed6e48e4d3c9
 pkg-7.62-28pin-d0.8-polygon-outline,8d1b8cc9-962e-4f43-9b9e-6e4a53c818fe
 pkg-7.62-28pin-d0.8-polygon-outline-compact,82f44530-9641-44c9-b8d0-4141c94c77df
 pkg-7.62-28pin-d0.8-polygon-outline-handsoldering,f4ee4eb6-e279-451f-9b00-e8e4b85b84f3
@@ -754,6 +776,8 @@ pkg-7.62-4pin-d0.8-pad-4,0e438961-b8f5-46d2-91d6-411ab50cde4d
 pkg-7.62-4pin-d0.8-pin1-dot-silkscreen-compact,16a06a55-c109-4d8c-940e-5dddc76b13d8
 pkg-7.62-4pin-d0.8-pin1-dot-silkscreen-handsoldering,f1aa04ed-53a9-4ad8-b987-366f859796ae
 pkg-7.62-4pin-d0.8-pkg,be5766e0-4481-4778-82e4-dd11ef1d2a20
+pkg-7.62-4pin-d0.8-polygon-courtyard-compact,6cb67ac8-d929-48bf-a2a2-7c820d252194
+pkg-7.62-4pin-d0.8-polygon-courtyard-handsoldering,80749e50-b27f-4f20-a085-087ce251e683
 pkg-7.62-4pin-d0.8-polygon-outline,1a718c71-a847-4270-9182-5b776d77e662
 pkg-7.62-4pin-d0.8-polygon-outline-compact,31ddf23e-8307-48b7-b0f0-8f82ce3c313d
 pkg-7.62-4pin-d0.8-polygon-outline-handsoldering,013e94bf-b640-4e8b-bc82-7a850635ce70
@@ -780,6 +804,8 @@ pkg-7.62-6pin-d0.8-pad-6,b375e03a-7c89-471c-9f6e-13d7772bac59
 pkg-7.62-6pin-d0.8-pin1-dot-silkscreen-compact,046bffe9-5daf-4504-a4e0-36acbb96d27c
 pkg-7.62-6pin-d0.8-pin1-dot-silkscreen-handsoldering,615359bd-e140-4271-9ef7-74260c4a3c98
 pkg-7.62-6pin-d0.8-pkg,37bfe725-ae0a-4111-8763-5b9c74c1f5a2
+pkg-7.62-6pin-d0.8-polygon-courtyard-compact,9577c7ca-68cf-4109-a349-be405359d965
+pkg-7.62-6pin-d0.8-polygon-courtyard-handsoldering,4b94f8e1-e7d8-49e2-ba5b-4d6beb00ef05
 pkg-7.62-6pin-d0.8-polygon-outline,53212967-62a6-40da-8308-6069d167c667
 pkg-7.62-6pin-d0.8-polygon-outline-compact,5010e7ca-1979-4632-b56b-2dbc4bded71d
 pkg-7.62-6pin-d0.8-polygon-outline-handsoldering,24728664-9eb2-4851-b919-63e0226b2d30
@@ -808,6 +834,8 @@ pkg-7.62-8pin-d0.8-pad-8,6f52c096-3d8c-43e7-ae41-e295050ceffe
 pkg-7.62-8pin-d0.8-pin1-dot-silkscreen-compact,d1bdcdfa-5a72-4146-be7c-1fd123404810
 pkg-7.62-8pin-d0.8-pin1-dot-silkscreen-handsoldering,85de82bd-5e57-4083-bd06-ddee088ba019
 pkg-7.62-8pin-d0.8-pkg,d1e4b152-0fd5-4ced-9c46-691c0e1d7105
+pkg-7.62-8pin-d0.8-polygon-courtyard-compact,dd1a2a75-87c7-41fa-acad-21f4cea3e394
+pkg-7.62-8pin-d0.8-polygon-courtyard-handsoldering,4b1f2221-820a-4ebd-8401-7118aacee2bb
 pkg-7.62-8pin-d0.8-polygon-outline,ef461d98-ad34-4559-9faa-dcfcf04781d3
 pkg-7.62-8pin-d0.8-polygon-outline-compact,b28322e6-1a4a-4cba-a345-8a8dca6097d2
 pkg-7.62-8pin-d0.8-polygon-outline-handsoldering,bfa5304f-f0fa-473e-80d9-cfec6bbe6885

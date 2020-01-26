@@ -183,6 +183,7 @@ pkg_text_offset = 0.8
 silkscreen_offset = 0.20
 pin_package_offset = 0.762  # Distance between drill hole and the package outline
 lead_width = 0.55
+courtyard_excess = 0.4
 
 
 # Initialize UUID cache
@@ -313,6 +314,7 @@ def generate_pkg(
             uuid_silkscreen_notch = _uuid('polygon-silkscreen-notch-{}'.format(key))
             uuid_pin1_dot = _uuid('pin1-dot-silkscreen-{}'.format(key))
             uuid_outline = _uuid('polygon-outline-{}'.format(key))
+            uuid_courtyard = _uuid('polygon-courtyard-{}'.format(key))
             uuid_text_name = _uuid('text-name-{}'.format(key))
             uuid_text_value = _uuid('text-value-{}'.format(key))
 
@@ -430,6 +432,34 @@ def generate_pkg(
                 Position(-dx, dy),
             )
             footprint.add_circle(pin1_dot)
+
+            # Courtyard
+            courtyard = Polygon(
+                uuid_courtyard,
+                Layer('top_courtyard'),
+                Width(line_width),
+                Fill(False),
+                GrabArea(False),
+            )
+            offset = line_width / 2 + courtyard_excess
+            dx_inner = config.body_width / 2 + offset
+            dx_outer = pad_x_offset + pad_size[0] / 2 + offset
+            dy_inner = get_y(1, pin_count // 2, pitch, False) + pad_size[1] / 2 + offset
+            dy_outer = config.body_length / 2 + offset
+            courtyard.add_vertex(Vertex(Position(-dx_inner,  dy_outer), Angle(0.0)))  # Top left
+            courtyard.add_vertex(Vertex(Position( dx_inner,  dy_outer), Angle(0.0)))  # CW
+            courtyard.add_vertex(Vertex(Position( dx_inner,  dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position( dx_outer,  dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position( dx_outer, -dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position( dx_inner, -dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position( dx_inner, -dy_outer), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position(-dx_inner, -dy_outer), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position(-dx_inner, -dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position(-dx_outer, -dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position(-dx_outer,  dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position(-dx_inner,  dy_inner), Angle(0.0)))
+            courtyard.add_vertex(Vertex(Position(-dx_inner,  dy_outer), Angle(0.0)))
+            footprint.add_polygon(courtyard)
 
             # Labels
             dy = config.body_length / 2 + line_width + pkg_text_offset
