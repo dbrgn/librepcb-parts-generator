@@ -6,6 +6,8 @@ python:
   - '3.7'
 install:
   - pip install -r requirements.txt
+  - pytest --version
+  - mypy --version
 script:
   - pytest
   - mypy --strict
